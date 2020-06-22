@@ -1,4 +1,5 @@
-# Common 7 Time complexity
+## Day0: Time complexity and Space complexity
+### Common 7 Time complexity
 * O(1): Constant Complexity
 * O(logn): Logarithmic Complexity
 * O(n): Linear Complexity
@@ -7,10 +8,10 @@
 * O(2^n): Exponemtial Growth
 * O(n!): Factorial
 
-# 
+### 
 * O(1)< O(logn) < O(n) < O(nlogn) < O(n^2) < O(2^n) < O(n!)
 
-# Recursion 怎么分析Time complexity
+### Recursion 怎么分析Time complexity
 * 总共执行了语句多少次
 * 树形结构，递归状态的递归树或状态树。
 * Eg： Fib: 0,1, 1, 2, 3, 5, 8, 13, 21...
@@ -21,7 +22,8 @@
         }
     * T: O(2^n)  S: O(n) 面试不要这样写 
 
-# Master Theorem
+### Master Theorem
+* ![avatar](LeetCode Record/img/Master Theorm.png)
     * 二分查找：有序数列，每次一分为二，单边查找
     * 二叉树的遍历：每个节点都访问一次且仅访问一次
     * 排好序的二维矩阵：进行二分查找。一维数组的二分查找是log(n)
@@ -31,7 +33,7 @@
 * DFS,BFS Time complexity: O(n)
 * 二分查找：O(log n)
 
-# Space complexity
+### Space complexity
 * 数组的长度： 数组的长度就SC。一维O(n),  二维O(n^2)
 * 递归的深度： 递归最深的深度就是SC的最大值
-    * 两者都有，取齐最大值
+    * 两者都有，取齐最大值!
