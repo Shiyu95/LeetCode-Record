@@ -1,0 +1,34 @@
+## Day2: Tree, Binary Tree and Binary Search Tree
+<h3>Tree</h3>
+<img src="../img/2.png" width="80%">
+<h3>Binary Tree</h3>
+<img src="../img/3.png" width="80%">
+<hr>
+<P>Tree Code: </p>
+<img src="../img/4.png" width="80%">
+<h3>Traverse Binary Tree</h3>
+
+<ol>
+    <li>Pre-order: root-left-right
+    <li>In-order: left-root-right
+    <li>Post-order: left-right-root
+</ol>
+
+<h3> Binary Search Tree</h3>
+BST, also called Ordered Binary Tree, Sorted Binary Tree. 
+
+1. Empty tree
+2. All nodes value in left child tree < root value.
+   All nodes value in right child tree > root value.
+   So left/right child tree also are binary tree.
+3. in-order traverse BST = sort the BST from low to high value
+
+T(logn):
+<ul>
+<li> searchBST</li>
+<li> insert new node</li>
+<li> delete</li>
+</ul>
+
+   
+   
