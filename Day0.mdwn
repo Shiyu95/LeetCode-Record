@@ -1,0 +1,22 @@
+# Common 7 Time complexity
+* O(1): Constant Complexity
+* O(logn): Logarithmic Complexity
+* O(n): Linear Complexity
+* O(n^2): N square Complexity
+* O(n^3): N cubic Complexity
+* O(2^n): Exponemtial Growth
+* O(n!): Factorial
+
+# 
+* O(1)< O(logn) < O(n) < O(nlogn) < O(n^2) < O(2^n) < O(n!)
+
+# Recursion 怎么分析Time complexity
+* 总共执行了语句多少次
+* 树形结构，递归状态的递归树或状态树。
+* Eg： Fib: 0,1, 1, 2, 3, 5, 8, 13, 21...
+    * F(n) = F(n-1) +F(n-2)
+    * int fib(int n){
+        if(n<2)return n;
+        return fib(n-1)+fib(n-2);
+    }
+
