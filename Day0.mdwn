@@ -18,5 +18,20 @@
     * int fib(int n){
         if(n<2)return n;
         return fib(n-1)+fib(n-2);
-    }
+        }
+    * T: O(2^n)  S: O(n) 面试不要这样写 
 
+# Master Theorem
+    * 二分查找：有序数列，每次一分为二，单边查找
+    * 二叉树的遍历：每个节点都访问一次且仅访问一次
+    * 排好序的二维矩阵：进行二分查找。一维数组的二分查找是log(n)
+    * 归并排序：
+* 二叉树的遍历-前序， 中序， 后序：Time complexity？O(n)
+* 图的遍历：O(n)
+* DFS,BFS Time complexity: O(n)
+* 二分查找：O(log n)
+
+# Space complexity
+* 数组的长度： 数组的长度就SC。一维O(n),  二维O(n^2)
+* 递归的深度： 递归最深的深度就是SC的最大值
+    * 两者都有，取齐最大值
