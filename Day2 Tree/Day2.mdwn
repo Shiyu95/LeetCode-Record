@@ -14,6 +14,16 @@
     <li>Post-order: left-right-root
 </ol>
 
+<h3>Full, Complete and Perfect binary trees</h3>
+<ul>
+    <li>Full binary tree: each node has exactly 0 or 2 children (but never 1).</li>
+    <li>Complete binary tree: when all levels except the last one are full with nodes.</li>
+    <li>Perfect binary tree: when all the levels (including the last one) are full of nodes.</li>
+</ul>
+
+<img src ="../img/5.png">
+
+
 <h3> Binary Search Tree</h3>
 BST, also called Ordered Binary Tree, Sorted Binary Tree. 
 
@@ -25,9 +35,9 @@ BST, also called Ordered Binary Tree, Sorted Binary Tree.
 
 T(logn):
 <ul>
-<li> searchBST</li>
-<li> insert new node</li>
-<li> delete</li>
+    <li> searchBST</li>
+    <li> insert new node</li>
+    <li> delete</li>
 </ul>
 
    
