@@ -1,8 +1,0 @@
-## Day1: Array, ArrayList, LinkList, skipList
-### **Array**
-  * Java: int a[100];
-  * JavaScript: let x=[1,2,3];
-  * Python: list = [ ];
-
- 1. Access each item in an array, the TC will be same. **O(1)**
-      * Each item in an array has a address. Each address can be accessed through the memory manager. Time will be same

@@ -1,0 +1,19 @@
+## Day1: Array, ArrayList, LinkList, skipList
+### **Array**
+  * Java: int a[100];
+  * JavaScript: let x=[1,2,3];
+  * Python: list = [ ];
+<hr>
+
+ *  Access each item in an array, the TC will be same. **O(1)**
+      * Each item in an array has a address. Each address can be accessed through the memory manager. Time will be same
+ * |    | LinkedList |  Array  |
+    |  ----  | ----  |----  |
+    | prepend  | O(1) |O(1)
+    | append | O(1) |O(1)
+    | look up | O(n) |O(1)
+    | insert | O(1)|O(n)
+    | delete | O(1) |O(n)
+
+  * Arrays built-in operations
+    * 
